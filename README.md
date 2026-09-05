@@ -39,7 +39,7 @@
 <img width="1905" height="1491" alt="image" src="https://github.com/user-attachments/assets/91bc4ded-d1b8-4525-9cb2-a53ae36a9c45" />
 在文献附近显示输入状态，在右下角显示统计情况。
 
-- ![](C:/Users/Jinlin/AppData/Roaming/marktext/images/2026-09-05-17-29-11-image.png)
+- 已适配其他插件：沉浸式翻译;easyScholar。
 
 ## 隐私与权限
 
