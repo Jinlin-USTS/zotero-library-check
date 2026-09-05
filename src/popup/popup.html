@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zotero Library Check</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>Zotero Library Check</h1>
+      <div id="state" class="state">正在读取状态…</div>
+      <dl>
+        <div><dt>索引文献</dt><dd id="item-count">—</dd></div>
+        <div><dt>上次同步</dt><dd id="last-synced">—</dd></div>
+      </dl>
+      <p id="error" class="error" hidden></p>
+      <button id="refresh" type="button">刷新 Zotero 索引</button>
+      <p class="hint">需要保持 Zotero 运行，并在“设置 → 高级”中允许本机应用通信。Chrome 请求本地网络权限时请选择“允许”。</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

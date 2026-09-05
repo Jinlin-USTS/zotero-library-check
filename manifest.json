@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Zotero Library Check",
+  "version": "0.1.0",
+  "description": "在 Web of Science 检索结果中标记已存在于本机 Zotero 文库的论文。",
+  "permissions": ["storage", "alarms"],
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.js"
+  },
+  "action": {
+    "default_title": "Zotero Library Check",
+    "default_popup": "src/popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.webofscience.com/*",
+        "https://webofscience.com/*",
+        "https://webofscience.clarivate.cn/*",
+        "https://*.webofscience.clarivate.cn/*",
+        "https://*.webofknowledge.com/*"
+      ],
+      "js": [
+        "src/shared/core.js",
+        "src/content/wos-adapter.js",
+        "src/content/content-script.js"
+      ],
+      "css": ["src/content/content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

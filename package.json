@@ -1,0 +1,11 @@
+{
+  "name": "zotero-library-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that marks Web of Science papers already present in Zotero.",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "prepackage": "npm test",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1"
+  }
+}
