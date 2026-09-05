@@ -12,6 +12,7 @@
 - 汇总当前页面的识别和匹配数量。
 - 点击匹配标签，可尝试在 Zotero 中定位对应条目。
 - 每五分钟检查文库版本；文库变化后自动重建索引。
+  
 
 ## 安装
 
@@ -35,7 +36,8 @@
 - `＋ 未收录`：当前索引中未发现可信匹配。
 - `! Zotero 未连接`：Zotero 未运行、本地 API 未启用或索引尚未完成。
 
-
+<img width="1905" height="1491" alt="image" src="https://github.com/user-attachments/assets/91bc4ded-d1b8-4525-9cb2-a53ae36a9c45" />
+在文献附近显示输入状态，在右下角显示统计情况。
 
 - ![](C:/Users/Jinlin/AppData/Roaming/marktext/images/2026-09-05-17-29-11-image.png)
 
@@ -80,9 +82,8 @@ docs/INSTALLATION.md          安装与故障排查
 docs/RELEASING.md             GitHub 仓库与 Release 发布说明
 scripts/package.ps1           发布包生成脚本
 ```
-
-## 已知边界
-
+## 使用与注意事项
+- 需要在后台持续运行Zotero。
 - 当前只同步 Zotero 个人文库，不同步群组文库。
 - WOS 页面结构可能随账号、地区和版本变化；页面未显示标签时，需要提供相应页面的脱敏 HTML 样本以更新适配器。
 - 扩展只检查条目是否存在，不会向 Zotero 写入或自动导入论文。
@@ -92,3 +93,12 @@ scripts/package.ps1           发布包生成脚本
 ## 许可证
 
 本仓库暂未附加开源许可证。公开发布前，请由项目所有者选择合适的许可证；在许可证明确前，默认保留全部权利。
+
+If you find useful, buy me a coffee :) 
+
+<img width="352/5" height="453/5" alt="51a8de308d577a858a0e9324957f2c0c" src="https://github.com/user-attachments/assets/9bd932e8-9d4b-49b4-acf4-5b1f6d87d3d5" />
+
+
+
+
+
