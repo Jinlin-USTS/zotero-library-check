@@ -94,7 +94,7 @@ scripts/package.ps1           发布包生成脚本
 
 本仓库暂未附加开源许可证。公开发布前，请由项目所有者选择合适的许可证；在许可证明确前，默认保留全部权利。
 
-If you find useful, buy me a coffee :) 
+If you find it useful, buy me a coffee :) 
 
 <img width="352/5" height="453/5" alt="51a8de308d577a858a0e9324957f2c0c" src="https://github.com/user-attachments/assets/9bd932e8-9d4b-49b4-acf4-5b1f6d87d3d5" />
 
