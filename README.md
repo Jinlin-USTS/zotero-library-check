@@ -95,7 +95,8 @@ scripts/package.ps1           发布包生成脚本
 本仓库暂未附加开源许可证。公开发布前，请由项目所有者选择合适的许可证；在许可证明确前，默认保留全部权利。
 
 If you find it useful, buy me a coffee :) 
-<img width="618" height="607" alt="image" src="https://github.com/user-attachments/assets/cd85f375-a8b6-451b-86b1-0678eb37eb96" />
+
+<img width="618/2" height="607/2" alt="image" src="https://github.com/user-attachments/assets/cd85f375-a8b6-451b-86b1-0678eb37eb96" />
 
 
 
