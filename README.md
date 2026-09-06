@@ -96,7 +96,7 @@ scripts/package.ps1           发布包生成脚本
 
 If you find it useful, buy me a coffee :) 
 
-<img width="618/2" height="607/2" alt="image" src="https://github.com/user-attachments/assets/cd85f375-a8b6-451b-86b1-0678eb37eb96" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/cd85f375-a8b6-451b-86b1-0678eb37eb96" />
 
 
 
